@@ -43,7 +43,7 @@ function imprimirTodosLosPendientes() {
 function agregarPendiente(){
     var pendiente = document.getElementById("item").value;
     pendientes.push({descripcion: pendiente, completado: false});
-    imprimirTodosLosPendientes();
+    imprimirTodosLosPendientes(); 
 }
 
 imprimirTodosLosPendientes();
