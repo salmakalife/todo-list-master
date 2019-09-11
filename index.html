@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +10,19 @@
   <script src="https://kit.fontawesome.com/805628dd45.js"></script>
   <title>Pendientes:</title>
 </head>
+
 <body>
   <div class="contenedor">
     <h1>Pendientes:</h1>
     <div class="inputWrapper">
       <input class="input" name="item" type="text" id="item" placeholder="Agrega un elemento a la lista" />
-      <button class="button"><i class="fa fa-plus"></i></button>
+      <button class="button" onClick="agregarPendiente()"><i class="fa fa-plus"></i></button>
     </div>
-    <ul class="lista">
-      <li class="done">
-        <div class="checkbox"><i class="fa fa-check"></i></div>
-        <div class="descripcion">Hacer tarea</div>
-      </li>
-      <li>
-        <div class="checkbox"><i class="fa fa-check"></i></div>
-        <div class="descripcion">Hacer tarea</div>
-      </li>
+    <ul class="lista" id="lista">
+
     </ul>
   </div>
   <script src="./script.js"></script>
 </body>
+
 </html>
